@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'cc4g'
+
+group 'com.example'
+version '1.5.2'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+cc4g {
+    gameVersion = '1.8.9'
+    cc4g_client_api = true
+}

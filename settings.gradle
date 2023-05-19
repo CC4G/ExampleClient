@@ -1,0 +1,15 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            name 'CC4G'
+            url 'https://cc4g.github.io/maven/'
+        }
+    }
+
+    dependencies {
+        classpath('cc4g:cc4g:0.1.0')
+    }
+}
+rootProject.name = 'ExampleClient'
+
